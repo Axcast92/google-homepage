@@ -1,0 +1,69 @@
+#logo {
+  position: absolute;
+  left: 40%;
+  top: 20%;
+}
+
+#aboutstore {
+  font-family: monospace;
+  font-size: 10pt;
+  word-spacing: 10px;
+  display: inline;
+  position: relative;
+  left: 20px;
+  top: 5px;
+}
+
+#gmailimages{
+  font-family: monospace;
+  font-size: 10pt;
+  word-spacing: 10px;
+  display: inline;
+  position: relative;
+  left: 1500px;
+  top: 5px;
+}
+
+a:link {
+  color: #0d0b0b;
+  font-family: inherit;
+  font-size: inherit;
+  word-spacing: inherit;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0d0b0b;
+  font-family: inherit;
+  font-size: inherit;
+  word-spacing: inherit;
+  text-decoration: none;
+}
+ fieldset {
+   border: 0;
+ }
+
+#search {
+  border-style: outset;
+  position: absolute;
+  left: 35%;
+  top: 35%;
+  width: 450px;
+  height: 40px;
+}
+
+.submitbuttons {
+  border: 0;
+  width: auto;
+  height: 35px;
+}
+
+#googlesearch {
+  width: 135px;
+  height: 40px;
+}
+
+#feelinglucky {
+  width: 135px;
+  height: 40px;
+}
