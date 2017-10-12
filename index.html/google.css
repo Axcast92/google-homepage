@@ -24,6 +24,28 @@
   top: 5px;
 }
 
+#signin {
+  font-family: monospace;
+  font-size 10pt;
+  background-color: #6388FC;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 3px;
+  text-align: center;
+  display: inline;
+  position: absolute;
+  top: 6px;
+  right: 20px;
+}
+
+#signin:hover {
+  text-decoration: none;
+}
+
+#signin:active {
+  background-color: #3766FD;
+}
+
 a:link {
   color: #0d0b0b;
   font-family: inherit;
@@ -39,11 +61,18 @@ a:visited {
   word-spacing: inherit;
   text-decoration: none;
 }
+
+a:hover {
+  text-decoration: underline;
+}
+
  fieldset {
    border: 0;
  }
 
 #search {
+  padding-left: 20px;
+  padding-right: 20px;
   border-style: outset;
   position: absolute;
   left: 35%;
@@ -53,6 +82,7 @@ a:visited {
 }
 
 .submitbuttons {
+  background-color: #b9b9b9;
   border: 0;
   width: auto;
   height: 35px;
@@ -61,9 +91,31 @@ a:visited {
 #googlesearch {
   width: 135px;
   height: 40px;
+  position: absolute;
+  top: 45%;
+  left: 725px;
+}
+
+#googlesearch:hover {
+  background-color: #b9b9b9;
+  color: black;
+  border: 1px;
+  border-style: solid;
+  font-weight: 200;
 }
 
 #feelinglucky {
   width: 135px;
   height: 40px;
+  position: absolute;
+  top: 45%;
+  left: 900px;
+}
+
+#feelinglucky:hover {
+  background-color: #b9b9b9;
+  color: black;
+  border: 1px;
+  border-style: solid;
+  font-weight: 200;
 }
